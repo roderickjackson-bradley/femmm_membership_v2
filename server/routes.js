@@ -88,6 +88,11 @@ module.exports = function (app, passport) {
     setRedirect({auth: '/'}),
     isAuthenticated,
     dashboard.getProfile);
+  app.get('/gallery',
+    setRender('dashboard/gallery'),
+    setRedirect({auth: '/'}),
+    isAuthenticated,
+    dashboard.getGallery);
 
   // user api stuff
   app.post('/user',
