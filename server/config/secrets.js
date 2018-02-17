@@ -2,11 +2,11 @@ module.exports = {
 
   db: process.env.MONGODB || process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost:27017/stripe-membership',
 
-  sessionSecret: process.env.SESSION_SECRET || 'change this',
+  sessionSecret: process.env.SESSION_SECRET || 'tomtom',
 
   mailgun: {
-    apiKey: process.env.MAILGUN_API_KEY || '',
-    domain: process.env.MAILGUN_DOMAIN || ''
+    apiKey: process.env.MAILGUN_API_KEY || 'key-4926fe008187aba2cf087f46b1a9a529',
+    domain: process.env.MAILGUN_DOMAIN || 'sandbox9bf39c4de37249a89765d3687473d98f.mailgun.org'
   },
 
   stripeOptions: {
