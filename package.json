@@ -1,5 +1,5 @@
 {
-  "name": "node-stripe-membership-saas",
+  "name": "Private Art Gallery",
   "description": "This project is a boilerplate express app for creating a membership/subscription site with Stripe.",
   "version": "1.0.0",
   "repository": {
